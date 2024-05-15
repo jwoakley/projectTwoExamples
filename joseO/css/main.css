@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Young Serif', serif;
+    font-style: normal;
+    background-color: #B42033;
+    font-size: 50px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    color: white;
+}
+
+.info2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #B42033;
+    color: white;
+}
+
+.text{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Young Serif', serif;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 2s steps(75), 
+        cursor .4s step-end infinite alternate;
+}
+
+.info3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    height: 100vh;
+    background-color: #3C3B6E;
+    animation: moveText 3s linear;
+}
+
+.info4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    color: 	#eefcff;
+    background-color: #3C3B6E;
+    animation: wavyText 2s infinite;
+  }
+
+.info5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 30px;
+}
+
+.info6 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    color: white;
+    background-color: #3C3B6E;
+    animation: increaseSize 2s ease infinite alternate;
+}
+
+
+.button  {
+    display: inline-block;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: transparent; 
+    color: #000; 
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none; 
+    transition: background-color 0.3s; 
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+}
+
+.yellow-frame {
+    animation: slide-up 3s forwards, change-background 1s 3s forwards;
+}
+
+#text-animation {
+    font-size: 50px;
+    padding-left: 10px;
+    color: #3C3B6E;
+    animation: fill-screen 3s 1.5s forwards, change-color 1s 2s forwards;
+}
+
+#gradient {
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 30px #FFD700;
+    animation: neon-animation 1.5s infinite;
+}
+
+.button:hover {
+    background-color: #ffcc00; 
+    color: #fff; 
+}
+
+@keyframes neon-animation {
+    0%, 100% {
+        color: #FFD700; 
+        text-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 30px #FFD700;
+    }
+    50% {
+        color: #FEB303; 
+        text-shadow: none;
+    }
+}
+
+@keyframes slide-up {
+    0% {
+        bottom: -100%;
+        background-color: transparent; 
+    }
+    100% {
+        bottom: 0;
+        background-color: #ffcc00; 
+        color: white;
+    }
+}
+
+@keyframes change-background {
+    0% {
+        background-color: #ffcc00; 
+    }
+    100% {
+        background-color: #ff6b35; 
+    }
+}
+
+@keyframes fill-screen {
+    0% {
+        font-size: 60px; 
+        color: transparent; 
+    }
+    100% {
+        font-size: 300px; 
+        color: white; 
+    }
+}
+
+@keyframes change-color {
+    0% {
+        color: white; 
+    }
+    100% {
+        color: #3C3B6E; 
+    }
+}
+
+@keyframes cursor {
+    50%{ border-color: transparent }
+}
+@keyframes typing{
+    from { width: 0 }
+}
+
+@keyframes moveText {
+    0% {
+      transform: translateY(-100%);
+    }
+    50% {
+      transform: translateY(0%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+
+  @keyframes wavyText {
+    0% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+
+  @keyframes increaseSize {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+
+
+
+
+
