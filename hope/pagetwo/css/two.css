@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color: #fffff0;
+    font-family: "click-clack", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #2c3439;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #fffff0;
+}
+
+.first {
+    font-size: 50px;
+    margin-left: 40px;
+    margin-top: 100px;
+    text-align: center;
+    line-height: 100px;
+    width: 50%;
+    padding: 10px;
+}
+
+    .lineOne {
+        transform: scaleX(0);
+        transform-origin: left;
+        animation: grow-left cubic-bezier(0.785, 0.135, 0.15, 0.86) 3s forwards;
+        animation-delay: 0.4s;
+    }
+        .good {
+            animation: hoverstyle;
+            animation-duration: 3s;
+            animation-play-state: paused;
+            animation-fill-mode: both;
+        }
+        .good:active, 
+        .good:focus,
+        .good:hover {
+            animation-play-state: running;
+        } 
+        
+
+.second {
+    font-size: 50px;
+    margin-left: 700px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 100px;
+    width: 50%;
+    padding: 10px;
+}
+
+    .lineTwo {
+        transform: scaleX(0);
+        transform-origin: left;
+        animation: grow-left cubic-bezier(0.785, 0.135, 0.15, 0.86) 3s forwards;
+        animation-delay: 4s;
+    }
+
+        .divine {
+            animation: glow;
+            animation-duration: 3s;
+            animation-play-state: paused;
+            animation-fill-mode: both;
+        }
+
+        .divine:active,
+        .divine:focus,
+        .divine:hover {
+            animation-play-state: running;
+        }
+
+.third {
+    opacity: 0;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-right: 400px;
+    text-align: center;
+    line-height: 100px;
+    width: 50%;
+    padding: 10px;
+    animation: appear 5s ease 7s forwards;
+}
+
+    .lineThree {
+        white-space: nowrap;
+    }
+                        /* wish start */
+        .w {
+            animation-name: wish;
+            animation-duration: 3s;
+            animation-play-state: paused;
+            animation-fill-mode: both;
+        }
+            .w:active,
+            .w:focus,
+            .w:hover {
+                animation-play-state: running;
+            }
+        
+
+        .i {
+            animation-name: wish;
+            animation-duration: 3s;
+            animation-play-state: paused;
+            animation-fill-mode: both;
+        }
+            .i:active,
+            .i:focus,
+            .i:hover {
+                animation-play-state: running;
+            }
+
+        .s {
+            animation-name: wish;
+            animation-duration: 3s;
+            animation-play-state: paused;
+            animation-fill-mode: both;
+        }
+            .s:active,
+            .s:focus,
+            .s:hover {
+                animation-play-state: running;
+            }
+
+        .h {
+            animation-name: wish;
+            animation-duration: 3s;
+            animation-play-state: paused;
+            animation-fill-mode: both;
+        }
+            .h:active,
+            .h:focus,
+            .h:hover {
+                animation-play-state: running;
+            }
+
+                    /* wish end */
+.fourth {
+    opacity: 0;
+    font-size: 50px;
+    margin-left: 700px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 100px;
+    width: 50%;
+    padding: 10px;
+    animation: appear 5s ease 9s forwards;
+}
+
+    .lineFour {
+        transition: all ease-in-out;
+    }
+        .time {
+            color: rgb(211, 0, 42);
+            animation: wave 2s ease .6s infinite; margin-right: 0;
+        }
+
+/* keyframes */
+@keyframes grow-left {
+    from {
+      transform: scaleX(0);
+    }
+    to {
+      transform: scaleX(1);
+    }
+  }
+
+@keyframes appear {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes wave {
+    0% { 
+        top: 0;     
+        opacity: 1; 
+    }
+    50%  { 
+        top: 30px;  
+        opacity: .2; 
+    }
+    100% { 
+        top: 0;     
+        opacity: 1; 
+    }
+  }
+
+  @keyframes hoverstyle {
+    100% {
+        color: lightgreen;
+        margin-left: 60px;
+        margin-right: 10px;
+        transition-duration: 4s;
+    }
+  }
+
+@keyframes glow {
+    100% {
+        color: #fdec6e;
+        margin-left: 60px;
+        margin-right: 10px;
+        text-shadow:0px 0px 30px #fdec6e;
+        transition: all 2s ease-in-out;
+    }
+}
+
+@keyframes wish {
+    100% {
+        color: #66c9dd;
+        font-size: 100px;
+        text-shadow:0px 0px 30px #fdec6e;
+        transition: all 3s ease-out;
+    }
+}
+  
