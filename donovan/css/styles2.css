@@ -1,0 +1,64 @@
+/* Landing Page */
+
+#landing a{
+    color: orange;
+    font-size: 7em;
+    font-weight: 800;
+    top: 20%;
+    left: 23%;
+    -webkit-box-reflect: below 0px linear-gradient(transparent, rgba(255, 0, 0, 0.3));
+    line-height: 0.7em;
+    text-shadow: none;
+
+    animation-name: title;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes title {
+    from {
+        color: orange;
+        text-shadow: none;
+    }
+    to {
+        color: white;
+        text-shadow: 0 0 50px white;
+    }
+}
+
+#landing h4 {
+    color: transparent;
+    position: absolute;
+    font-size: 3em;
+    /* left: 40%; */
+    bottom: 40%;
+
+    animation-name: credit;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes credit {
+    from {
+        color: transparent;
+        transform: translate(100%, 500%);
+        -webkit-transform: translate(100%, 500%);
+        -moz-transform: translate(100%, 500%);
+        -ms-transform: translate(100%, 50%);
+        -o-transform: translate(100%, 500%);
+}
+    to {
+        color: ghostwhite;
+        transform: translate(100%, 100%);
+        -webkit-transform: translate(100%, 100%);
+        -moz-transform: translate(100%, 100%);
+        -ms-transform: translate(100%, 100%);
+        -o-transform: translate(100%, 100%);
+}
+}

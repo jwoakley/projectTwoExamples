@@ -1,0 +1,764 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+section h1, h2, h3, h4, h5, h6, a {
+    position: absolute;
+    text-transform: capitalize;
+}
+
+section a {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+a {text-decoration: none;}
+
+footer a {
+    color: black;
+    position: absolute;
+}
+
+footer #begin, #back {
+    position: absolute;
+    font-size: 0.85em;
+    bottom: 2%;
+    right: 2%;
+}
+
+footer a:hover {text-decoration: underline;}
+
+.lyrics {color: transparent;}
+
+/* Line Eight */
+
+#eight h3 {
+    font-size: 2.5em;
+    top: 10%;
+    left: 10%;
+
+    animation-name: eight;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+#eight h2 {
+    font-size: 2.5em;
+    top: 25%;
+    left: 15%;
+
+    animation-name: eight;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+#eight h1 {
+    font-size: 2.5em;
+    top: 25%;
+    left: 41%;
+
+    animation-name: eight;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes eight {
+    0% {
+        color: transparent;
+        text-shadow: none;
+    }
+    100% {
+        color: black;
+        text-shadow: 0 0 20px gray;
+        -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+    }
+}
+
+#eight a {
+    font-size: 20em;
+    font-weight: 900;
+    top: 30%;
+    left: 30%;
+    color: transparent;
+    text-shadow: none;
+    -webkit-box-reflect: below -100px linear-gradient(transparent, transparent);
+
+    animation-name: win;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes win {
+    0% {
+        color: transparent;
+        text-shadow: none;
+        -webkit-box-reflect: below -255px linear-gradient(transparent, transparent);
+    }
+    20% {
+        color: darkgreen;
+        text-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+        -webkit-box-reflect: below -255px linear-gradient(transparent, rgba(0, 255, 0, 0.2));
+    }
+    100% {
+        color: green;
+        text-shadow: 0 0 40px rgba(0, 128, 0, 0.5);
+        -webkit-box-reflect: below -255px linear-gradient(transparent, rgba(0, 128, 0, 0.2));
+    }
+}
+
+/* Line Eight (Part Two) */
+
+#eightTwo h2 {
+    font-size: 2.5em;
+    top: 10%;
+    left: 10%;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+
+    animation-name: eightPartTwo;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+#eightTwo h1 {
+    font-size: 2.5em;
+    top: 10%;
+    left: 38.75%;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+
+    animation-name: eightPartTwo;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes eightPartTwo {
+    from {
+        color: transparent;
+        transform: scale(0%, 0%);
+        -webkit-transform: scale(0%, 0%);
+        -moz-transform: scale(0%, 0%);
+        -ms-transform: scale(0%, 0%);
+        -o-transform: scale(0%, 0%);
+    }
+    to {
+        color: black;
+        transform: scale(100%, 100%);
+        -webkit-transform: scale(100%, 100%);
+        -moz-transform: scale(100%, 100%);
+        -ms-transform: scale(100%, 100%);
+        -o-transform: scale(100%, 100%);
+    }
+}
+
+#eightTwo a {
+    color: transparent;
+    font-size: 10em;
+    font-weight: 900;
+    top: 25%;
+    left: 25%;
+    -webkit-box-reflect: below -100px linear-gradient(transparent, rgba(255, 0, 0, 0.3));
+
+    animation-name: loses;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes loses {
+    0% {color: transparent;}
+    25% {text-shadow: 0 0 100px gray;}
+    50% {color: coral;}
+    75% {text-shadow: 0 0 150px orange;}
+    100% {
+        color: red;
+        text-shadow: 0 0 200px rgba(255, 0, 0, 0.7);
+    }
+}
+
+/* Line Nine */
+
+#nine h6 {
+    top: 10%;
+    left: 10%;
+    font-size: 1.5em;
+
+    animation-name: nine;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+#nine h5 {
+    top: 10%;
+    left: 36%;
+    font-size: 1.5em;
+
+    animation-name: nine;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+#nine h4 {
+    top: 9.5%;
+    left: 58%;
+    font-size: 1.75em;
+
+    animation-name: touch;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes touch {
+    0% {
+        color: transparent;
+        text-shadow: none;
+        -webkit-box-reflect: below -5px linear-gradient(transparent, transparent);
+    }
+    50% {
+        color: rgba(255, 0, 0, 0.9);
+        text-shadow: 0 0 50px rgba(245, 245, 220, 0.9);
+        -webkit-box-reflect: below -10px linear-gradient(transparent, rgba(255, 0, 0, 0.25));
+    }
+    100% {
+        color: red;
+        text-shadow: 0 0 50px beige;
+        -webkit-box-reflect: below -10px linear-gradient(transparent, rgba(255, 0, 0, 0.255));
+    }
+}
+
+#nine h3 {
+    top: 20%;
+    left: 15%;
+    font-size: 2em;
+
+    animation-name: nine;
+    animation-duration: 0.5s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+#nine h2 {
+    top: 19%;
+    left: 35%;
+    font-size: 2.25em;
+
+    animation-name: broSis;
+    animation-duration: 0.5s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes broSis {
+    0% {
+        color: transparent;
+        text-shadow: none;
+        -webkit-box-reflect: below -5px linear-gradient(transparent, transparent);
+    }
+    50% {
+        color: rgba(0, 128, 0, 0.75);
+        text-shadow: 0 0 50px rgba(0, 100, 0, 0.9);
+        -webkit-box-reflect: below -15px linear-gradient(transparent, rgba(0, 255, 0, 0.25));
+    }
+    100% {
+        color: green;
+        text-shadow: 0 0 50px darkgreen;
+        -webkit-box-reflect: below -15px linear-gradient(transparent, rgba(0, 255, 0, 0.3));
+    }
+}
+
+#nine h1 {
+    top: 30%;
+    left: 20%;
+    font-size: 2.5em;
+
+    animation-name: nine;
+    animation-duration: 0.5s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes nine {
+    from {
+        color: transparent;
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+}
+    to {
+        color: black;
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+}
+}
+
+#nine a {
+    top: 35%;
+    left: 35%;
+    font-size: 10em;
+    font-weight: 900;
+    color: transparent;
+    text-shadow: none;
+    -webkit-box-reflect: none;
+
+    animation-name: crutch;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes crutch {
+    0% {
+        color: transparent;
+        text-shadow: none;
+        -webkit-box-reflect: none;
+    }
+    50% {
+        color: green;
+        text-shadow: 0 0 20px darkgreen;
+        -webkit-box-reflect: below -100px linear-gradient(transparent, rgba(0, 100, 0, 0.2));
+    }
+    100% {
+        -webkit-box-reflect: below -100px linear-gradient(transparent, rgba(0, 100, 0, 0.2));
+    }
+}
+
+/* Line Ten */
+
+#ten h6 {
+    top: 10%;
+    left: 15%;
+    font-size: 1.75em;
+
+    animation-name: nine;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+#ten h5 {
+    top: 10.5%;
+    left: 49%;
+    font-size: 1.75em;
+
+    animation-name: nine;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+#ten h4 {
+    top: 20%;
+    left: 20%;
+    font-size: 2em;
+
+    animation-name: nine;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes nine {
+    from {
+        color: transparent;
+        transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+        -o-transform: translateY(100%);
+    }
+    to {
+        color: black;
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+}
+}
+
+#ten a {
+    top: 30%;
+    left: 40%;
+    font-size: 15em;
+    font-weight: 900;
+    color: transparent;
+
+    animation-name: tried;
+    animation-duration: 2.5s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes tried {
+    0% {
+        color: transparent;
+        text-shadow: none;
+    }
+    50% {
+        color: white;
+        text-shadow: 0 0 20px gray;
+    }
+    100% {
+        color: gray;
+        text-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    }
+}
+
+/* Line Eleven */
+
+#eleven h6 {
+    top: 5%;
+    left: 5%;
+    font-size: 1.5em;
+
+    animation-name: eleven;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+#eleven h5 {
+    top: 5.5%;
+    left: 33%;
+    font-size: 1.5em;
+
+    animation-name: eleven;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+#eleven h4 {
+    top: 12%;
+    left: 10%;
+    font-size: 1.5em;
+
+    animation-name: eleven;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+#eleven h3 {
+    top: 12.5%;
+    left: 25%;
+    font-size: 1.5em;
+
+    animation-name: eleven;
+    animation-duration: 0.5s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+#eleven h2 {
+    top: 12.75%;
+    left: 47%;
+    font-size: 1.5em;
+
+    animation-name: yeah;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes yeah {
+    0% {
+        color: transparent;
+        transform: scaleY(0%);
+        -webkit-transform: scaleY(0%);
+        -moz-transform: scaleY(0%);
+        -ms-transform: scaleY(0%);
+        -o-transform: scaleY(0%);
+    }
+    25% {
+        color: black;
+        transform: scaleY(100%);
+        -webkit-transform: scaleY(100%);
+        -moz-transform: scaleY(100%);
+        -ms-transform: scaleY(100%);
+        -o-transform: scaleY(100%);
+    }
+    50% {
+        color: transparent;
+        transform: scale(0%, 100%);
+        -webkit-transform: scale(0%, 100%);
+        -moz-transform: scale(0%, 100%);
+        -ms-transform: scale(0%, 100%);
+        -o-transform: scale(0%, 100%);
+    }
+    75% {
+        color: red;
+        transform: scale(50%, 50%);
+        -webkit-transform: scale(50%, 50%);
+        -moz-transform: scale(50%, 50%);
+        -ms-transform: scale(50%, 50%);
+        -o-transform: scale(50%, 50%);
+    }
+    100% {
+        color: crimson;
+        transform: scale(100%, 100%);
+        -webkit-transform: scale(100%, 100%);
+        -moz-transform: scale(100%, 100%);
+        -ms-transform: scale(100%, 100%);
+        -o-transform: scale(100%, 100%);
+}
+}
+
+#eleven h1 {
+    top: 25%;
+    left: 25%;
+    font-size: 3em;
+
+    animation-name: eleven;
+    animation-duration: 0.5s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes eleven {
+    from {
+        color: transparent;
+        transform: scaleY(0%);
+        -webkit-transform: scaleY(0%);
+        -moz-transform: scaleY(0%);
+        -ms-transform: scaleY(0%);
+        -o-transform: scaleY(0%);
+    }
+    to {
+        color: black;
+        transform: scaleY(100%);
+        -webkit-transform: scaleY(100%);
+        -moz-transform: scaleY(100%);
+        -ms-transform: scaleY(100%);
+        -o-transform: scaleY(100%);
+}
+}
+
+#eleven a {
+    top: 40%;
+    left: 20%;
+    font-size: 8em;
+    font-weight: 900;
+    text-align: center;
+    color: transparent;
+
+    animation-name: world;
+    animation-duration: 5s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+/* Line Twelve */
+
+#twelve h4 {
+    top: 5%;
+    left: 10%;
+    font-size: 2em;
+
+    animation-name: twelve;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+#twelve h3 {
+    top: 5.5%;
+    left: 37%;
+    font-size: 2.25em;
+
+    animation-name: scatland;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes scatland {
+    0% {
+        color: transparent;
+        text-shadow: none;
+        -webkit-box-reflect: below -15px linear-gradient(transparent, transparent);
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+}
+    50% {
+        color: black;
+        text-shadow: 0 0 20px darkslategray;
+        -webkit-box-reflect: below -15px linear-gradient(transparent, rgba(0, 0, 0, 0.25));
+    }
+    100% {
+        color: green;
+        text-shadow: 0 0 20px limegreen;
+        -webkit-box-reflect: below -15px linear-gradient(transparent, rgba(0, 128, 0, 0.25));
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+}
+}
+
+#twelve h2 {
+    top: 20%;
+    left: 15%;
+    font-size: 2.5em;
+
+    animation-name: twelve;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes twelve {
+    0% {
+        color: transparent;
+        text-shadow: none;
+        -webkit-box-reflect: below -10px linear-gradient(transparent, transparent);
+    }
+    50% {
+        color: gray;
+        text-shadow: 0 0 darkgray;
+        -webkit-box-reflect: below -10px linear-gradient(transparent, rgba(128, 128, 128, 0.25));
+    }
+    100% {
+        color: black;
+        text-shadow: none;
+        -webkit-box-reflect: below -10px linear-gradient(transparent, rgba(128, 128, 128, 0.1));
+    }
+}
+
+#twelve a {
+    top: 35%;
+    left: 10%;
+    font-size: 10em;
+    font-weight: 900;
+    text-align: center;
+    color: transparent;
+
+    animation-name: world;
+    animation-duration: 5s;
+    animation-delay: 1.25s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes world {
+    from {
+        color: transparent;
+        text-shadow: none;
+        -webkit-box-reflect: below -100px linear-gradient(transparent, transparent, transparent);
+    }
+    to {
+        color: green;
+        text-shadow: 0 0 50px green;
+        -webkit-box-reflect: below -100px linear-gradient(transparent, transparent, rgba(0, 255, 0, 0.5));
+    }
+}
+
+
+/* 
+Everybody's talkin' something very shockin'
+Just to keep on blockin' what they're feeling inside
+But listen to me, brother, you just keep on walkin'
+'Cause you and me and sister ain't got nothing to hide
+
+Scatman, fat man, black and white and brown man
+Tell me 'bout the color of your soul
+If part of your solution isn't ending the pollution
+Then I don't want to hear your stories told
+I want to welcome you to Scatman's World
+
+Everybody's born to compete as he chooses
+But how can someone win if winning means that someone loses?
+I sit and see and wonder what it's like to be in touch
+No wonder all my brothers and my sisters need a crutch
+
+I want to be a human being, not a human doing
+I couldn't keep that pace up if I tried
+The source of my intention really isn't crime prevention
+My intention is prevention of the lie, yeah
+Welcome to that Scatman's World
+
+I'm calling out from Scatland
+I'm calling out from Scatman's World
+If you wanna break free, you better listen to me
+You've got to learn how to see in your fantasy
+ */

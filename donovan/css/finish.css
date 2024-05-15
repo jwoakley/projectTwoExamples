@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+
+    animation-name: bG;
+    animation-duration: 3s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes bG {
+    from {background-color: white;}
+    to {background-color: black;}
+}
+
+section h1, h2, h3, h4, h5, h6, a {
+    position: absolute;
+    text-transform: capitalize;
+}
+
+a {text-decoration: none;}
+
+footer a {
+    color: black;
+    position: absolute;
+
+    animation-name: footing;
+    animation-duration: 3s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes footing {
+    from {color: gray;}
+    to {color: white;}
+}
+
+footer #begin {
+    position: absolute;
+    font-size: 0.85em;
+    bottom: 2%;
+    right: 2%;
+}
+
+footer a:hover {text-decoration: underline;}
+
+.lyrics {color: transparent;}
+
+/* Line Thirteen */
+
+#thirteen h4 {
+    top: 10%;
+    left: 10%;
+    font-size: 2em;
+
+    animation-name: thirteen;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+#thirteen h3 {
+    top: 20%;
+    left: 15%;
+    font-size: 2em;
+
+    animation-name: thirteen;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+#thirteen h2 {
+    top: 30%;
+    left: 20%;
+    font-size: 2em;
+
+    animation-name: thirteen;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+#thirteen h1 {
+    top: 40%;
+    left: 25%;
+    font-size: 2em;
+
+    animation-name: thirteen;
+    animation-duration: 0.5s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes thirteen {
+    0% {
+        color: transparent;
+        transform: scale(0%, 0%) translate(-100%, -100%);
+        -webkit-transform: scale(0%, 0%) translate(-100%, -100%);
+        -moz-transform: scale(0%, 0%) translate(-100%, -100%);
+        -ms-transform: scale(0%, 0%) translate(-100%, -100%);
+        -o-transform: scale(0%, 0%) translate(-100%, -100%);
+}
+    50% {
+        color: darkslategray;
+        transform: scale(50%, 50%) translate(0%, 0%) ;
+        -webkit-transform: scale(50%, 50%) translate(0%, 0%) ;
+        -moz-transform: scale(50%, 50%) translate(0%, 0%) ;
+        -ms-transform: scale(50%, 50%) translate(0%, 0%) ;
+        -o-transform: scale(50%, 50%) translate(0%, 0%) ;
+}
+    100% {
+        color: black;
+        transform: scale(100%, 100%) ;
+        -webkit-transform: scale(100%, 100%) ;
+        -moz-transform: scale(100%, 100%) ;
+        -ms-transform: scale(100%, 100%) ;
+        -o-transform: scale(100%, 100%) ;
+    }
+}
+
+#thirteen a {
+    top: 50%;
+    left: 35%;
+    font-size: 10em;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 900;
+    color: white;
+    text-shadow: 0 0 20px ghostwhite;
+    -webkit-box-reflect: below -100px linear-gradient(transparent, rgba(128, 128, 128, 0.5));
+}
+
+/* 
+Everybody's talkin' something very shockin'
+Just to keep on blockin' what they're feeling inside
+But listen to me, brother, you just keep on walkin'
+'Cause you and me and sister ain't got nothing to hide
+
+Scatman, fat man, black and white and brown man
+Tell me 'bout the color of your soul
+If part of your solution isn't ending the pollution
+Then I don't want to hear your stories told
+I want to welcome you to Scatman's World
+
+Everybody's born to compete as he chooses
+But how can someone win if winning means that someone loses?
+I sit and see and wonder what it's like to be in touch
+No wonder all my brothers and my sisters need a crutch
+
+I want to be a human being, not a human doing
+I couldn't keep that pace up if I tried
+The source of my intention really isn't crime prevention
+My intention is prevention of the lie, yeah
+Welcome to that Scatman's World
+
+I'm calling out from Scatland
+I'm calling out from Scatman's World
+If you wanna break free, you better listen to me
+You've got to learn how to see in your fantasy
+ */

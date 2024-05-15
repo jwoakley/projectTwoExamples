@@ -1,0 +1,177 @@
+/* Page Layout  */
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,  body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+
+    animation-name: backgroundChange;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes backgroundChange {
+    from {background-color: black;}
+    to {background-color: white;}
+}
+
+section h1, h2, h3, h4, h5, h6, a {
+    display: inline-block;
+    position: absolute;
+}
+
+section h1, h2, h3, h4, h5, h6 {text-transform: capitalize;}
+
+section a {text-transform: uppercase;}
+
+a {text-decoration: none;}
+
+footer a {
+    color: gray;
+    position: absolute;
+
+    animation-name: footerChange;
+    animation-duration: 5s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes footerChange {
+    from {color: gray;}
+    to {color: black;}
+}
+
+footer #begin, #back {
+    position: absolute;
+    font-size: 0.85em;
+    bottom: 2%;
+    right: 2%;
+}
+
+footer a:hover {text-decoration: underline;}
+
+.lyrics {color: transparent;}
+
+/* Line Seven */
+
+#seven h3 {
+    font-size: 2.5em;
+    top: 5%;
+    left: 40%;
+
+    animation-name: want;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+#seven h2 {
+    font-size: 2.5em;
+    top: 15%;
+    left: 35%;
+
+    animation-name: want;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes want {
+    0% {
+        color: transparent;
+        transform: scaleY(0%);
+        -webkit-transform: scaleY(0%);
+        -moz-transform: scaleY(0%);
+        -ms-transform: scaleY(0%);
+        -o-transform: scaleY(0%);
+}
+    20% {
+        color: white;
+        transform: scaleY(100%);
+        -webkit-transform: scaleY(100%);
+        -moz-transform: scaleY(100%);
+        -ms-transform: scaleY(100%);
+        -o-transform: scaleY(100%);
+    }
+    100% {
+        color: black;
+    }
+}
+
+#seven a {
+    font-size: 7em;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    top: 27%;
+    left: 32%;
+    color: transparent;
+
+    animation-name: world;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes world {
+    0% {
+        color: transparent;
+        text-shadow: none;
+        -webkit-box-reflect: below -70px linear-gradient(transparent, transparent, transparent);
+    }
+    50% {
+        -webkit-box-reflect: below -70px linear-gradient(transparent, transparent, rgba(0, 255, 0, 0.2));
+    }
+    100% {
+        color: green;
+        text-shadow: 0 0 50px lime;
+        -webkit-box-reflect: below -70px linear-gradient(transparent, transparent, rgba(0, 255, 0, 0.2));
+    }
+}
+
+/* 
+Everybody's talkin' something very shockin'
+Just to keep on blockin' what they're feeling inside
+But listen to me, brother, you just keep on walkin'
+'Cause you and me and sister ain't got nothing to hide
+
+Scatman, fat man, black and white and brown man
+Tell me 'bout the color of your soul
+If part of your solution isn't ending the pollution
+Then I don't want to hear your stories told
+I want to welcome you to Scatman's World
+
+Everybody's born to compete as he chooses
+But how can someone win if winning means that someone loses?
+I sit and see and wonder what it's like to be in touch
+No wonder all my brothers and my sisters need a crutch
+
+I want to be a human being, not a human doing
+I couldn't keep that pace up if I tried
+The source of my intention really isn't crime prevention
+My intention is prevention of the lie, yeah
+Welcome to that Scatman's World
+
+Listen to me
+I'm calling out from Scatland
+I'm calling out from Scatman's World
+If you wanna break free, you better listen to me
+You've got to learn how to see in your fantasy
+ */

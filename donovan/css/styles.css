@@ -1,0 +1,43 @@
+/* In General Page Layout */
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,  body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+section h1, h2, h3, h4, h5, h6, a {
+    display: inline-block;
+    position: absolute;
+    text-transform: capitalize;
+}
+
+section a {
+    font-family: 'Bebas Neue', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer a {
+    color: gray;
+    position: absolute;
+}
+
+footer #begin, #back {
+    position: absolute;
+    font-size: 0.85em;
+    bottom: 2%;
+    right: 2%;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

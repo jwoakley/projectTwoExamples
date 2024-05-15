@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+section h1, h2, h3, h4, h5, h6, a {
+    position: absolute;
+    text-transform: capitalize;
+}
+
+a {text-decoration: none;}
+
+footer a {
+    color: white;
+    position: absolute;
+}
+
+footer #begin {
+    position: absolute;
+    font-size: 1em;
+    bottom: 2%;
+    right: 2%;
+}
+
+footer a:hover {text-decoration: underline;}
+
+/* The End/Credits Styling */
+
+#credits {
+    color: transparent;
+    font-family: 'Bebas Neus', sans-serif;
+}
+
+#credits h6 {
+    top: 2%;
+    left: 29.5%;
+    font-size: 2em;
+    font-weight: 650;    
+
+    animation-name: appear1;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+#credits h5 {
+    top: 8%;
+    left: 30%;
+    font-size: 2em;
+    font-weight: 600;
+
+    animation-name: appear2;
+    animation-duration: 10s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+#credits h4 {
+    top: 14%;
+    left: 28%;
+    font-size: 2em;
+    font-weight: 600;
+
+    animation-name: appear3;
+    animation-duration: 10s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+#credits h3 {
+    top: 20%;
+    left: 31%;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+
+    animation-name: appear4;
+    animation-duration: 10s;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes appear1 {
+    0% {
+        color: transparent;
+        transform: translateY(1000%);
+        -webkit-transform: translateY(1000%);
+        -moz-transform: translateY(1000%);
+        -ms-transform: translateY(1000%);
+        -o-transform: translateY(1000%);
+    }
+    50% {
+        color: white;
+        transform: translateY(500%);
+        -webkit-transform: translateY(500%);
+        -moz-transform: translateY(500%);
+        -ms-transform: translateY(500%);
+        -o-transform: translateY(500%);
+    }
+    95% {
+        color: rgba(255, 255, 255, 0.9);
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+    }
+    100% {color: rgba(255, 255, 255, 0.3); }
+}
+
+@keyframes appear2 {
+    0% {
+        color: transparent;
+        transform: translateY(1000%);
+        -webkit-transform: translateY(1000%);
+        -moz-transform: translateY(1000%);
+        -ms-transform: translateY(1000%);
+        -o-transform: translateY(1000%);
+    }
+    50% {
+        color: white;
+        transform: translateY(480%);
+        -webkit-transform: translateY(480%);
+        -moz-transform: translateY(480%);
+        -ms-transform: translateY(480%);
+        -o-transform: translateY(480%);
+    }
+    95% {
+        color: rgba(255, 255, 255, 0.9);
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+    }
+    100% {color: rgba(255, 255, 255, 0.35);}
+}
+
+@keyframes appear3 {
+    0% {
+        color: transparent;
+        transform: translateY(1000%);
+        -webkit-transform: translateY(1000%);
+        -moz-transform: translateY(1000%);
+        -ms-transform: translateY(1000%);
+        -o-transform: translateY(1000%);
+    }
+    50% {
+        color: white;
+        transform: translateY(460%);
+        -webkit-transform: translateY(460%);
+        -moz-transform: translateY(460%);
+        -ms-transform: translateY(460%);
+        -o-transform: translateY(460%);
+    }
+    95% {
+        color: rgba(255, 255, 255, 0.9);
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+    }
+    100% {color: rgba(255, 255, 255, 0.4);}
+}
+
+@keyframes appear4 {
+    0% {
+        color: transparent;
+        transform: translateY(450%);
+        -webkit-transform: translateY(450%);
+        -moz-transform: translateY(450%);
+        -ms-transform: translateY(450%);
+        -o-transform: translateY(450%);
+}
+    50% {
+        color: white;
+        transform: translateY(120%);
+        -webkit-transform: translateY(120%);
+        -moz-transform: translateY(120%);
+        -ms-transform: translateY(120%);
+        -o-transform: translateY(120%);
+}
+    95% {
+        color: rgba(255, 255, 255, 0.9);
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+    }
+    100% {color: rgba(255, 255, 255, 0.45);}
+}
+
+#credits h2 {
+    top: 35%;
+    left: 25%;
+    font-size: 3em;
+    font-weight: 900;
+    text-shadow: 0 0 25px transparent;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, transparent);    
+
+    animation-name: shine;
+    animation-duration: 2s;
+    animation-delay: 23s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+#credits h1 {
+    top: 50%;
+    left: 26%;
+    font-size: 2.5em;
+    font-weight: 850;
+    text-align: center;
+    text-shadow: 0 0 25px transparent;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, transparent);    
+
+    animation-name: shine;
+    animation-duration: 2s;
+    animation-delay: 24s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes shine {
+    from {
+        color: transparent;
+        text-shadow: 0 0 25px transparent;
+        -webkit-box-reflect: below -20px linear-gradient(transparent, transparent);
+    }
+    to {
+        color: ghostwhite;
+        text-shadow: 0 0 25px rgba(255, 255, 255, 0.4);
+        -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(255, 255, 255, 0.15));
+    }
+}
