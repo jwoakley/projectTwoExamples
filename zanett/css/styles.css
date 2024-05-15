@@ -1,0 +1,811 @@
+/* All Page Styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Reenie Beanie', sans-serif;
+    background-color: #D1C9B6;
+}
+
+body {
+    height: 712px;
+    width: 1440px;
+}
+
+section {
+    height: 712px;
+    width: 1440px;
+    padding-top: 20%;
+}
+
+.padLeft {
+    height: 712px;
+    width: 1440px;
+    padding-top: 22%;
+    padding-left: 25%;
+}
+
+h3 {
+    color: #776565;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 57px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(92, 134, 138);
+}
+
+h5 {
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
+}
+
+#fadeIn {
+    animation-name: fadeIn;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#letterOne {
+    animation-name: waveMotion;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterTwo {
+    animation-name: waveMotion;
+    animation-delay: 200ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterThree {
+    animation-name: waveMotion;
+    animation-delay: 400ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterFour {
+    animation-name: waveMotion;
+    animation-delay: 600ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterFive {
+    animation-name: waveMotion;
+    animation-delay: 800ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterSix {
+    animation-name: waveMotion;
+    animation-delay: 1000ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterSeven {
+    animation-name: waveMotion;
+    animation-delay: 1200ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#letterEight {
+    animation-name: waveMotion;
+    animation-delay: 1400ms;
+    animation-direction: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes waveMotion {
+    0% {
+        top: 320px;
+    }
+    50% {
+        top: 310px;
+    }
+    100% {
+        top: 320px;
+    }
+}
+
+/* Page 1 (index.html) Animations */
+#skimmingStones {
+    animation-name: skimmingStones;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes skimmingStones {
+    from {
+        margin-left: -1000px;
+        transform: skew(60deg);
+        letter-spacing: 30px;
+    }
+    to {
+        margin-left: 0px;
+    }
+}
+
+#floats {
+    animation-name: floats;
+    animation-delay: 1.2s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes floats {
+    from {
+        position: relative;
+        top: 0px;
+    }
+    to {
+        position: relative;
+        top: -80px;
+        font-size: 70px;
+    }
+}
+
+/* Page 2 Animations */
+.look {
+    position: absolute;
+    top: 317px;
+    left: 495px;
+    animation-name: look;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes look {
+    0% {
+        transform: rotateX(90deg);
+        size: 48px;
+    }
+    50% {
+        transform: rotateX(-90deg);
+        font-size: 68px;
+    }
+    100% {
+        transform: rotateX(0deg);
+        font-size: 48px;
+    }
+}
+
+.outBeyond {
+    position: fixed;
+    top: 317px;
+    left: 568px;
+}
+
+.waterPositionW {
+    position: absolute;
+    top: 317px;
+    left: 818px;
+}
+
+.waterPositionA {
+    position: absolute;
+    top: 317px;
+    left: 837px;
+}
+
+.waterPositionT {
+    position: absolute;
+    top: 317px;
+    left: 860px;
+}
+
+.waterPositionE {
+    position: absolute;
+    top: 317px;
+    left: 876px;
+}
+
+.waterPositionR {
+    position: absolute;
+    top: 317px;
+    left: 892px;
+}
+
+/* Page 3 Animations */
+#feetF {
+    color: #D1C9B6;
+    position: absolute;
+    top: 317px;
+    left: 677px;
+    animation-name: feetLetters;
+    animation-duration: 1s;
+    animation-delay: 500ms;
+    animation-fill-mode: forwards;
+}
+
+#feetE1 {
+    color: #D1C9B6;
+    position: absolute;
+    top: 317px;
+    left: 696px;
+    animation-name: feetLetters;
+    animation-duration: 1s;
+    animation-delay: 1000ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#feetE2 {
+    color: #D1C9B6;
+    position: absolute;
+    top: 317px;
+    left: 713px;
+    animation-name: feetLetters;
+    animation-duration: 1s;
+    animation-delay: 1500ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+#feetT {
+    color: #D1C9B6;
+    position: absolute;
+    top: 317px;
+    left: 730px;
+    animation-name: feetLetters;
+    animation-duration: 1s;
+    animation-delay: 2000ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes feetLetters {
+    0% {
+        opacity: 0;
+        font-size: 88px;
+    }
+    100% {
+        color: #776565;
+        opacity: 1;
+        font-size: 48px;
+    }
+}
+
+#meetFirst {
+    color: #D1C9B6;
+    opacity: 0;
+    animation-name: meetFirst;
+    animation-delay: 2s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes meetFirst {
+    from {
+        margin-left: -150px;
+    }
+    to {
+        margin-left: 0px;
+        opacity: 1;
+        color: rgb(92, 134, 138);
+    }
+}
+
+#meetSecond {
+    position: absolute;
+    top: 374px;
+    color: #D1C9B6;
+    opacity: 0;
+    animation-name: meetSecond;
+    animation-delay: 2s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes meetSecond {
+    from {
+        margin-left: 368px;
+    }
+    to {
+        margin-left: 218px;
+        opacity: 1;
+        color: rgb(92, 134, 138);
+    }
+}
+
+/* Page 4 Animations */
+.page4 {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.circle {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: circleText 10s linear infinite;
+}
+
+.text span{
+    position: absolute;
+    left: 50%;
+    font-size: 56px;
+    transform-origin: 0 150px;
+    animation: circleTextOpacity 2s linear 1;
+}
+
+#arrow {
+    position: absolute;
+    top: 47%;
+}
+
+@keyframes circleText {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes circleTextOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Page 5 Animations */
+#down {
+    position: absolute;
+    top: 317px;
+    left: 657px;
+    animation: down;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+#asItMust {
+    position: absolute;
+    top: 317px;
+    left: 725px;
+}
+
+#up {
+    color: #776565;
+    position: absolute;
+    top: 317px;
+    left: 1040px;
+    animation: up;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@keyframes down {
+    0% {
+    }
+    100% {
+        top: 400px;
+    }
+}
+
+@keyframes up {
+    0% {
+        color: #776565;
+    }
+    100% {
+        top: 235px;
+    }
+}
+
+/* Page 6 Animations */
+.laughterPositionL {
+    position: absolute;
+    top: 317px;
+    left: 673px;
+}
+
+.laughterPositionA {
+    position: absolute;
+    top: 317px;
+    left: 683px;
+}
+
+.laughterPositionU {
+    position: absolute;
+    top: 317px;
+    left: 707px;
+}
+
+.laughterPositionG {
+    position: absolute;
+    top: 317px;
+    left: 725px;
+}
+
+.laughterPositionH {
+    position: absolute;
+    top: 317px;
+    left: 740px;
+}
+
+.laughterPositionT {
+    position: absolute;
+    top: 317px;
+    left: 759px;
+}
+
+.laughterPositionE {
+    position: absolute;
+    top: 317px;
+    left: 774px;
+}
+
+.laughterPositionR {
+    position: absolute;
+    top: 317px;
+    left: 791px;
+}
+
+/* Page 7 Animations */
+.onTheBeachPosition {
+    position: absolute;
+    top: 375px;
+    left: 501px;
+}
+
+.myGirls {
+    position: absolute;
+    top: 375px;
+    animation-name: myGirls;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
+
+.myGirls:hover {
+    animation-play-state: running;
+}
+
+@keyframes myGirls {
+    0% {
+        transform: rotate(0deg);
+        font-size: 48px;
+    }
+    50% {
+        font-size: 68px;
+    }
+    100% {
+        transform: rotate(-360deg);
+        font-size: 48px;
+    }
+}
+
+/* Page 8 Animations */
+.page8 {
+    place-items: center;
+    min-height: 100vh;
+    text-align: center;
+    animation-name: underwater;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes underwater {
+    0% {
+        background-color: rgb(92, 134, 138);
+        opacity: 0;
+    }
+    100% {
+        background-color: rgb(92, 134, 138);
+        opacity: 1;
+    }
+}
+
+#happy {
+    position: absolute;
+    top: -50px;
+    left: 675px;
+    animation-name: happy;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+#happy a {
+    color: #D1C9B6;
+}
+
+#ever {
+    position: absolute;
+    top: -50px;
+    left: 675px;
+    animation-name: ever;
+    animation-duration: 3s;
+    animation-delay: 500ms;
+    animation-fill-mode: forwards;
+}
+
+#ever a {
+    color: #D1C9B6;
+}
+
+#after {
+    position: absolute;
+    top: -50px;
+    left: 675px;
+    animation-name: after;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+#after a {
+    color: #D1C9B6;
+}
+
+#after a:hover {
+    color: #ffc130;
+    transition-duration: 1s;
+}
+
+@keyframes happy {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 330px;
+        opacity: 1;
+    }
+}
+
+@keyframes ever {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 380px;
+        opacity: 1;
+    }
+}
+
+@keyframes after {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        padding-top: 430px;
+        opacity: 1;
+    }
+}
+
+/* Page 9 Animations */
+.page9 {
+    background-color:rgb(92, 134, 138);
+    height: 712px;
+    width: 1440px;
+    animation-name: emerge;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes emerge {
+    0% {
+        background-color: rgb(92, 134, 138);
+        opacity: 1;
+    }
+    100% {
+        background-color:  rgb(92, 134, 138);
+        opacity: 0;
+    }
+}
+
+#okay {
+    animation-name: okayExhale;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
+    animation-direction: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-play-state: paused;
+}
+
+#okay:hover {
+    animation-play-state: running;
+}
+
+@keyframes okayExhale {
+    0%{
+        position: absolute;
+        color: rgb(92, 134, 138);
+        top: 317px;
+        left: 360px;
+        font-size: 48px;
+        opacity: .3;
+    }
+    100% {
+        position: absolute;
+        top: 310px;
+        left: 210px;
+        font-size: 280px;
+        opacity: 0;
+    }
+}
+
+/* Page 10 Animations (SEE PAGE 7)*/
+
+
+/* Page 11 Animations (SEE PAGE 9)*/
+
+
+/* Page 12 Animations */
+#periodOnePosition {
+    position: absolute;
+    top: 374px;
+    left: 400px;
+    animation-name: bounceOne;
+    animation-duration: 2s;
+    animation-direction: both;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#periodTwoPosition {
+    position: absolute;
+    top: 374px;
+    left: 406px;
+    animation-name: bounceTwo;
+    animation-duration: 2s;
+    animation-direction: both;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#periodThreePosition {
+    position: absolute;
+    top: 374px;
+    left: 412px;
+    animation-name: bounceThree;
+    animation-duration: 2s;
+    animation-direction: both;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes bounceOne {
+    0% {
+        top: 374px;
+        left: 400px;
+    }
+    50%{
+        left: 420px;
+    }
+    100% {
+        left: 400px;
+    }
+}
+
+@keyframes bounceTwo {
+    0% {
+        top: 374px;
+        left: 406px;
+    }
+    50%{
+        left: 446px;
+    }
+    100% {
+        left: 406px;
+    }
+}
+
+@keyframes bounceThree {
+    0% {
+        top: 374px;
+        left: 412px;
+    }
+    50%{
+        left: 492px;
+    }
+    100% {
+        left: 412px;
+    }
+}
+
+/* Page 13 Animations (SEE PAGE 8)*/
+
+/* Page 14 Animations */
+#centerText {
+    text-align: center;
+}
+
