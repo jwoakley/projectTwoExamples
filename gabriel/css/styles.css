@@ -1,0 +1,760 @@
+* {
+    margin: 100;
+    padding: 100;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #0A4DA6;
+}
+
+html {
+    padding: 70px 0;
+    font-size: 450%;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 200;
+    color: #F5F5F4;
+    text-align: center;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    min-height: auto;
+}
+
+a:link {
+    color: #F5F5F4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFD700;
+}
+
+/*Landing Page*/ 
+.Title {
+    font-weight: 800;
+    font-size: 250%;
+    animation: slide_up 10s ease-in-out;
+    color: #00BAFF;
+}
+
+.Title:hover {
+    color: #FFD700;
+}
+
+.Credit {
+    font-size: 50%;
+    animation: slide_up 10s ease-in-out;
+}
+
+/*Page 1*/
+.Pg1_fade_in {
+    
+    animation: fade_in 6s infinite;
+    animation-delay: 3s;
+}
+
+.Pg1_fade_in2 {
+    
+    animation: fade_in 6s infinite;
+    animation-delay: 3.5s;
+}
+
+.Pg1_fade_in3 {
+    
+    animation: fade_in 6s infinite;
+    animation-delay: 4s;
+}
+
+.Pg1_fade_in4 {
+    
+    animation: fade_in 6s infinite;
+    animation-delay: 5.5s;
+}
+
+.Pg1_fade_in5 {
+    
+    animation: fade_in 6s infinite;
+    animation-delay: 6s;
+}
+
+.Pg1_fade_in6 {
+    
+    animation: fade_in 6s infinite;
+    animation-delay: 6.5s;
+    color: #00BAFF;
+}
+
+.Pg1_fade_in6:hover {
+    color: #FFD700;
+}
+
+
+/*Page 2*/
+.Pg2_glow{
+    animation: glow_text 6s infinite;
+}
+
+.Pg2_slant {
+    animation: slant_text 3s;
+    animation-delay: 1s;
+}
+
+.Pg2_container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Pg2_reveal {
+    color: #00BAFF;
+    font-weight: 400;
+    white-space: nowrap;
+    letter-spacing: 12px;
+    overflow: hidden;
+    border-right: 3px solid #F5F5F4;
+    animation: typing 3s steps(9)  forwards, 
+    cursor .3s step-end infinite alternate;
+}
+
+.Pg2_reveal2 {
+    color: #00BAFF;
+}
+
+.Pg2_reveal {
+    color: #00BAFF;
+}
+
+.Pg2_reveal2:hover {
+    color: #FFD700;
+}
+
+/*Page 3*/
+.Pg3_down {
+    position: absolute;
+    animation: move_down 1.5s linear forwards; 
+}
+
+.Pg3_down2 {
+    color: #0A4DA6;
+}
+
+.Pg3_blue {
+    animation: text_blue 4s  infinite;
+    animation-delay: 5s;
+}
+
+.Pg3_stretch {
+    animation: stretch_text 8s infinite;
+}
+
+.Pg3_falling {
+    color: #00BAFF;
+}
+
+.Pg3_falling:hover {
+    color: #FFD700;
+}
+
+.Pg3_yellow {
+    animation: text_yellow 4s linear infinite;
+    animation-delay: 2s;
+}
+
+/*Page 4*/
+.Pg4_bold {
+    color: #00BAFF;
+    animation:  bigger_text 3s forwards;
+    animation-delay: 5s;
+}
+
+.Pg4_bold:hover {
+    color: #FFD700;
+}
+
+.Pg4_shine {
+    animation: text_yellow 4s forwards;
+    animation-delay: 2s;
+}
+
+/*Page 5*/
+.Pg5_yellow {
+    animation: text_yellow 8s linear infinite, big_text 3s forwards
+}
+.Pg5_fade {
+    animation: fade_in 6s linear infinite;
+    animation-delay: 3s;
+}
+
+.Pg5_fade2 {
+    animation: fade_in 6s linear infinite;
+    animation-delay: 3.5s;
+}
+
+.Pg5_fade3 {
+    animation: fade_in 6s linear infinite;
+    animation-delay: 4s;
+}
+.Pg5_gold {
+    animation: turn_yellow 6s forwards;
+    animation-delay: 6s;
+}
+
+.Pg5_small {
+    animation: text_small 3s forwards;
+    animation-delay: 6.5s;
+}
+
+.Pg5_change {
+    color: #00BAFF;
+}
+
+.Pg5_change:hover {
+    color: #FFD700;
+}
+
+/*Page 6*/
+.Pg6_first {
+    animation: appear_first 9s forwards, turn_blue 7s forwards;
+    animation-delay: 2s;
+}
+
+.Pg6_first2 {
+    animation: appear_first 9s infinite;
+    animation-delay: 2.5s;
+}
+
+.Pg6_first3 {
+    animation: appear_first 9s infinite;
+    animation-delay: 3s;
+}
+
+.Pg6_end {
+    animation: appear_next 9s infinite;
+    animation-delay: 3.5s;
+}
+
+.Pg6_end2 {
+    animation: appear_next 9s infinite;
+    animation-delay: 4s;
+}
+
+.Pg6_end3 {
+    animation: appear_next 9s infinite;
+    animation-delay: 4.5s;
+}
+
+.Pg6_end4 {
+    animation: appear_next 9s forwards, turn_yellow 7s forwards;
+    animation-delay: 5s;
+}
+
+.Pg6_end5{
+    color: #00BAFF;
+}
+
+.Pg6_end5:hover {
+    color: #FFD700;
+}
+
+/*Page 7*/
+.Pg7_space_text {
+    animation: space_text 6s;
+}
+
+.Pg7_closer {
+    animation: close_text 7s infinite;
+}
+
+.Pg7_fade1 {
+    animation: fade_in 6s;
+    animation-delay: 3s;
+}
+
+.Pg7_fade2 {
+    animation: fade_in 6s;
+    animation-delay: 3.5s;
+    color: #00BAFF;
+}
+
+.Pg7_fade2:hover {
+    color:#FFD700;
+}
+
+/*Page 8*/
+.Pg8_yellow {
+    animation: text_yellow 3s infinite;
+}
+
+.Pg8_blue {
+    animation: text_blue 8s infinite;
+    animation-delay: 2s;
+}
+
+.Pg8_space {
+    color: #00BAFF;
+    animation: spaced_text 8s forwards;
+}
+
+.Pg8_space:hover {
+    color: #FFD700;
+}
+
+.Pg8_jump:hover {
+    color: #FFD700;
+}
+
+/*Page 9*/
+.Pg9_scale {
+    animation: bold_text 3s forwards;
+}
+
+.Pg9_fade {
+    animation: fade 3s ;
+    animation-delay: 2s;
+}
+
+.P9_We_need_each_other {
+    color: #00BAFF;
+}
+
+.P9_We_need_each_other:hover {
+    color: #FFD700;
+}
+
+.w {
+    color: #F5F5F4;
+    animation: letter_color 4s infinite;
+    animation-delay: 2.25s;
+}
+
+.e1 {
+    color: #F5F5F4;
+    animation: letter_color 4s infinite;
+    animation-delay: 2.5s;
+}
+.n {
+    color: #F5F5F4;
+    animation: letter_color 4s infinite;
+    animation-delay: 2.75s;
+}
+
+.e2 {
+    color: #F5F5F4;
+    animation: letter_color 4s infinite;
+    animation-delay: 3s;
+}
+
+.e3 {
+    color: #F5F5F4;
+    animation: letter_color 4s infinite;
+    animation-delay: 3.25s;
+}
+
+.d {
+    color: #F5F5F4;
+    animation: letter_color 4s infinite;
+    animation-delay: 3.5s;
+}
+
+.e4 {
+    color: #F5F5F4;
+    animation: letter_color 4s infinite;
+    animation-delay: 3.75s;
+}
+
+.a {
+    color: #F5F5F4;
+    animation: letter_color 4s infinite;
+    animation-delay: 4s;
+}
+
+.c {
+    color: #F5F5F4;
+    animation: letter_color 4s infinite;
+    animation-delay: 4.25s;
+}
+
+.h1 {
+    color: #F5F5F4;
+    animation: letter_color 4s infinite;
+    animation-delay: 4.5s;
+}
+
+.o {
+    color: #F5F5F4;
+    animation: letter_color 4s infinite;
+    animation-delay: 4.75s;
+}
+
+.t {
+    color: #F5F5F4;
+    animation: letter_color 4s infinite;
+    animation-delay: 5s;
+}
+
+.h2 {
+    color: #F5F5F4;
+    animation: letter_color 4s infinite;
+    animation-delay: 5.25s;
+}
+
+.e5 {
+    color: #F5F5F4;
+    animation: letter_color 4s infinite;
+    animation-delay: 5.5s;
+}
+
+.r {
+    color: #F5F5F4;
+    animation: letter_color 4s infinite;
+    animation-delay: 5.75s;
+}
+
+/*Page 10*/
+.Pg10_big {
+    animation: bigger_text 3s forwards ;
+}
+
+.Pg10_sparkle {
+    color: #00BAFF;
+}
+
+.Pg10_sparkle:hover {
+    color: #FFD700;
+}
+
+/*Page 11*/
+.Pg11_eye1 {
+    font-size: 150%;
+    color:#F5F5F4;
+    padding-right: 125px;
+    font-weight: 800;
+}
+
+.Pg11_eye2 {
+    font-size: 150%;
+    color:#F5F5F4;
+    padding-right: -125px;
+    font-weight: 800;
+}
+
+.Pg11_rotate {
+    color: #FFD700;
+    display: inline flex;
+    height: 500px;
+    overflow: visible;
+}
+
+.Pg11_rotate1 {
+    font-size: 150%;
+    color: #FFD700;
+    font-weight: 800;
+    letter-spacing: 10px;
+    display: inline flex;
+    height: 150px;
+    overflow: visible;
+    animation: rotate_text1 6s infinite ;
+}
+
+.Pg11_rotate3 {
+    font-size: 150%;
+    color: #FFD700;
+    font-weight: 800;
+    letter-spacing: 10px;
+    display: inline-flex;
+    height: 150px;
+    overflow: visible;
+    animation: rotate_text2 6s infinite;
+}
+
+
+
+
+
+/*Landing*/
+@keyframes slide_up {
+    0% {
+        opacity: 0;
+        transform:translateY(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-100);
+    }
+}
+
+/*Page 1*/
+@keyframes fade_in {
+    0% {
+        opacity: 0;
+        transform:translateY(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-100);
+    }
+}
+
+/*Page 2*/
+@keyframes glow_text {
+    0% {
+        color: #F5F5F4;
+    }
+    50% {
+        color: #FFD700;
+    }
+    100% {
+        color: #F5F5F4;
+    }
+}
+
+@keyframes slant_text {
+    from {
+        font-style: normal;
+    }
+    to {
+        font-style: italic;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 45%;
+    }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 3;
+    }
+}
+
+@keyframes cursor {
+    35% {
+        border-color: transparent;
+    }
+}
+
+/*Page 3*/
+@keyframes move_down {
+    0% {
+       transform: translateY(0);
+       color: #F5F5F4;
+       }
+    100% {
+       transform: translateY(60px); 
+       color: #00BAFF;
+       }
+}
+
+/*Page 5*/
+@keyframes text_small {
+    0% {
+        font-size: 100%;
+    }
+    100% {
+        font-size: 75%;
+    }
+}
+
+@keyframes big_text {
+    0% {
+        font-size: 100%;
+        color: #F5F5F4;
+    }
+    50% {
+        font-size: 125%;
+        color: #FFD700;
+    }
+    100% {
+        font-size: 100%;
+    }
+}
+
+/*Page 6*/
+@keyframes appear_first {
+    0% {
+        opacity: 0;
+        transform:translateY(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-100);
+    }
+}
+
+@keyframes appear_next {
+    0% {
+        opacity: 0;
+        transform:translateY(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-100);
+    }
+}
+
+@keyframes turn_blue {
+    0% {
+        color: #F5F5F4;
+    }
+    100% {
+        color: #00BAFF;
+    }
+}
+
+@keyframes turn_yellow {
+    0% {
+        color: #F5F5F4;
+    }
+    100% {
+        color: #FFD700;
+    }
+}
+
+
+/*Page 7*/
+@keyframes close_text {
+    0% {
+        letter-spacing: 35px;
+    }
+    50% {
+        letter-spacing: 0px;
+        color: #FFD700;
+    }
+    100% {
+        letter-spacing: 35px;
+    }
+} 
+
+/*Page 8*/
+@keyframes text_yellow {
+    0% {
+        color: #F5F5F4;
+    }
+    50% {
+        color: #FFD700;
+    }
+    100% {
+        color: #F5F5F4;
+    }
+}
+
+@keyframes text_blue {
+    0% {
+        color: #F5F5F4;
+    }
+    50% {
+        color: #00BAFF;
+    }
+    100% {
+        color: #F5F5F4;
+    }
+}
+
+@keyframes spaced_text {
+    0% {
+        letter-spacing: 10px;
+    }
+    50% {
+        letter-spacing: 0px;
+    }
+    100% {
+        letter-spacing: 10px;
+    }
+}
+
+
+/*Page 9*/
+@keyframes bold_text {
+    0% {
+        font-size: 100%;
+        color: #F5F5F4;
+    }
+    100% {
+        font-size: 125%;
+        color: #FFD700;
+    }
+} 
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+        transform:translateY(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-100);
+    }
+}
+
+@keyframes letter_color {
+    0% {
+        color: #F5F5F4;
+    }
+    50% {
+        color: #FFD700;
+    }
+    100% {
+        color: #F5F5F4;
+    }
+ }
+
+/*Page 10*/
+@keyframes bigger_text {
+    0% {
+        font-size: 100%;
+        color: #F5F5F4;
+    }
+    100% {
+        font-size: 125%;
+        color: #FFD700;
+    }
+}
+
+ /*Page 11*/
+ @keyframes rotate_text1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(15deg)
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+ }
+
+ @keyframes rotate_text2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-15deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+ }
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+

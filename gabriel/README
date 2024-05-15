@@ -1,0 +1,17 @@
+# Words In Motion: Resilience in a Pandemic from William James College
+Poem from William James College and 13 students: Thomas Bell, Laura Cohen, Laura Corbige, Judith Nicole Dayaw, Gabriela Gonzalez, David Klapatch, Sarah Kosa, Allison Lawsky, Sarah Miller, Jehovanie Robert, Mollie Stolzer, Victoria Stout, and Lily Walsh—contributed to the project.
+
+Animations by Gabriel Roca
+
+# project overview
+This poem displayed as words in motion focuses on the idea of community. With this in mind, 13 students from Williams James College worked  together to create a  beautiful poem reflecting optimism, gratitude, and unity. In other words, a poem on community created by a community. The pandemic is a shared universal experience all walks of life can relate to. During this time, many challenges and obstacles prevailed but in the end, hope and resilience is what strengthen us as people and as a community. 
+
+# technical overview
+
+This animated poem was created with HTML and styled with CSS. For this specific poem, I constructed 11 pages in total. Pages were separated to highlight the significance of the text alongside the animations that bring them to life. 
+
+Organizing folders is essential in having the pages flow from one page to another. Having each respective page properly linked gets users to experience the poem. 
+
+Each page utilized margins, paddings, and text-alignment to create consistency and cohesion. 
+
+When animating text, the use of keyframes were incorporating in the css file. For specific words, the type of animation differed. Deciding what animations and transitions was key in highlighting and illustrating the poem and bringing it to life. I used animations such as scale, glow, type, font-styles, and rotote. I made sure each code in the css file are accurately functioning with their given style and animations.
