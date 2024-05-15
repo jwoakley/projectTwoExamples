@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #334048;
+    color: #FAFCD9;
+    font-size: 30px;
+
+    animation-name: fade;
+    animation-delay: 6s;
+    animation-direction: normal;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes fade {
+    0% {
+        background-image: radial-gradient(#334048, #334048);
+    }
+    25% {
+        background-image: radial-gradient(ellipse 65% 20%, #F4F4F9, #FAFCD9 15%, #334048 45%);
+    }
+    50% {
+        background-image: radial-gradient(#334048, #334048);
+    }
+    75% {
+        background-image: radial-gradient(ellipse 65% 20%, #F4F4F9, #FAFCD9 15%, #334048 45%);
+    }
+    100% {
+        background-image: radial-gradient(ellipse 65% 20%, #F4F4F9, #FAFCD9 15%, #334048 45%);
+    }
+}
+
+#center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #FAFCD9;
+    position: relative;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+p {
+    text-align: center;
+    
+}
+
+#p {
+    padding-top: 29%;
+    padding-bottom: 70%;
+}
+
+#change {
+    animation-name: headed;
+    animation-delay: 1s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+@keyframes headed {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    50%{
+        top: 10px;
+        left: 10px;
+    }
+    100% {
+        top: 300px;
+        left: -300px;
+        text-shadow: 0px 0px 20px white;
+    }
+}
+
+#p2 {
+    padding-top: 29%;
+    padding-bottom: 70%;
+    color: #334048;
+}
+
+#middle {
+    color: #334048;
+}
+
+#p3 {
+    padding-top: 29%;
+    padding-bottom: 29%;
+}
+
+#lag {
+    animation-name: lag;
+    animation-delay: none;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes lag {
+    0% {
+        color: #FAFCD9;
+        text-shadow: none;
+    }
+    50% {
+        color: white;
+        text-shadow: 0px 0px 10px;
+    }
+    100% {
+        color: #FAFCD9;
+        text-shadow: none;
+    }
+}

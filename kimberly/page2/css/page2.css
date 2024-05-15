@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+}
+
+body {
+    background-color: #334048;
+    color: white;
+    font-size: 30px;
+
+    animation-name: fade;
+    animation-delay: none;
+    animation-direction: normal;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+@keyframes fade {
+    from {
+        background-color: orangered;
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+#center {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 50%;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    line-height: 200%;
+}
+
+em {
+    position: relative;
+    left: 10px;
+    color: #B2C7D2;
+    
+    animation-name: drop1;
+    animation-delay: 3.7s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#ocean2 {
+    text-decoration: none;
+    color: #B2C7D2;
+    position: relative;
+    left: 20px;
+    font-style: italic;
+    
+    animation-name: drop2;
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes drop1 {
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 40px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+@keyframes drop2 {
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 40px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+#up {
+    position: absolute;
+    top: 100%;
+    left: 70%;
+    text-decoration: none;
+    color: #B2C7D2;
+
+    animation-name: up;
+    animation-delay: 4.5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+#up:hover {
+    opacity: 0.5;
+}
+
+@keyframes up {
+    from {
+        transform: translateY(0%) scale(0%);
+    }
+    to{
+        transform: translateY(-750%) scale(150%);
+    }
+}
+
+#pulse {
+    animation-name: pulse;
+    animation-delay: 5s;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        color: #B2C7D2;
+        text-shadow: none;
+    }
+    50% {
+        color: white;
+        text-shadow: 0px 0px 10px;
+    }
+    100% {
+        color: #B2C7D2;
+        text-shadow: none;
+    }
+}

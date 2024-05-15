@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+
+body {
+    background-color: #334048;
+    color: white;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 50%;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #FAFCD9;
+}
+
+p {
+    font-size: 100%;
+
+    animation-name: up;
+    animation-delay: none;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+@keyframes up {
+    0% {
+        transform: scale(0%) skew(0deg);
+    }
+    50% {
+        transform: scale(900%) rotate(-10deg);
+    }
+    100% {
+        transform: scale(400%) skew(0deg);
+    }
+}
